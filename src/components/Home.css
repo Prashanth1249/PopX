@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh); /* Subtract height of header/footer if any */
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.home .MuiButton-root {
+  margin-bottom: 12px; /* Add margin to specific elements */
+  border-radius:8px;
+}
+.home h1{
+  margin-bottom: 2px;
+}
+.home p{
+  margin-bottom: 40px;
+}
+.home .mybutton{
+  background-color: rgba(202, 208, 214, 0.89);
+  color: black;
+
+}

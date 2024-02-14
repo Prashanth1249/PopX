@@ -1,0 +1,51 @@
+/* Extra Small Devices (Phones) */
+.App {
+  width: 100%; /* Default width for all screens */
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  margin: 0 auto; /* Center the entire .App container horizontally */
+  height: 100vh;
+  background-color: #F7F8F9;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  /* Styles for extra small devices */
+  .App{
+    width: 100%;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* Styles for small devices */
+  .App{
+    width: 100%;
+  }
+}
+
+/* Medium Devices (Small Desktops) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* Styles for medium devices */
+  .App{
+    width: 100%;
+  }
+}
+
+/* Large Devices (Desktops) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  /* Styles for large devices */
+  .App{
+    width: 30%;
+  }
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media screen and (min-width: 1201px) {
+  /* Styles for extra large devices */
+  .App{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+}
